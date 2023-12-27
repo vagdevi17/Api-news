@@ -1,0 +1,90 @@
+/* Navbar styles */
+  .navbar {
+    background-color: #5a5757;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Navbar background color */
+  }
+  .container-fluid{
+    background-color: #d3cfcf;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Navbar brand font size */
+    font-weight: bold;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Navbar link color */
+    margin-right: 15px; /* Space between navbar links */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Hover color for navbar links */
+  }
+  
+  .form-control {
+    width: 300px; /* Search input width */
+    height: 38px; /* Set the height for the search input */
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .btn-outline-success {
+    color: #fff; /* Button text color */
+    background-color: #28a745; /* Button background color */
+    border-color: #28a745; /* Button border color */
+    height: 38px; /* Set the height for the button to match the search input */
+    padding-top: 6px; /* Adjust padding to center the text vertically */
+    padding-bottom: 6px; /* Adjust padding to center the text vertically */
+    vertical-align: middle;
+  }
+  
+  .btn-outline-success:hover {
+    color: #28a745; /* Hover text color */
+    background-color: #fff; /* Hover background color */
+    border-color: #28a745; /* Hover border color */
+  }
+  /* Example CSS for Search Results */
+  .search-results {
+    display: grid;
+  grid-template-columns: repeat(3, minmax(160px, 1fr)); /* Adjust width as needed */
+  gap: 20px;
+  padding: 20px;
+  }
+  
+  .article-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 18px; /* Adjust card padding as needed */
+    /* display: flex;
+    flex-direction: column; */
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .article-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .article-card p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .article-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  
